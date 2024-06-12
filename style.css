@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: max-content;
+}
+#registration{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#registration .input{
+    padding: 13px;
+    margin: 15px auto;
+}
+.logo{
+    display: flex;
+}
+.logo .user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color:  rgb(34, 148, 152);
+}
+.logo i{
+    font-size: 2rem;
+    color: white;
+}
+.username{
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    width: 12rem;
+    height: 0.3rem;
+    background-color: #d0d4d8;
+}
+.username input{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+.email{
+    display: flex;
+    align-items: center;
+    width: 12rem;
+    height: 0.3rem;
+    background-color: #d0d4d8; 
+}
+.email input{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+.password{
+    display: flex;
+    align-items: center;
+    width: 12rem;
+    height: 0.3rem;
+    background-color: #d0d4d8; 
+}
+.password input{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+.sign_up button{
+   padding: 9px 12px;
+   margin: 4px;
+   border: 0;
+   border-bottom: 1px solid grey;
+   border-radius: 999px;
+   font-size: 13px;
+   background-color:  rgb(34, 148, 152);
+   color: white;
+}
